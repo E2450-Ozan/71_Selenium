@@ -6,4 +6,7 @@ driver.get(base_url)
 
 time.sleep(3)
 
-element = driver.find_element_by_id
+element = driver.find_element_by_id("menu-item-2808")
+print("aws-devops butonu gösteriliyor mu? ---> ", element.is_displayed())
+time.sleep(5)
+driver.quit()
